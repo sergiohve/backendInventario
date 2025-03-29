@@ -4,5 +4,5 @@ config();
 
 
 export default{
-    port: process.env.port || 4000
+    port: process.env.PORT || 4000
 }

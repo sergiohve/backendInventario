@@ -19,7 +19,7 @@ app.use(cors({
 }))
 
 //settings
-app.set("port", config.port);
+app.set("port", process.env.PORT);
 
 //middlewares
 app.use(express.json());
